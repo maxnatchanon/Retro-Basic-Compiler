@@ -1,0 +1,22 @@
+1 pgm := line pgm
+2 pgm := EOF
+3 line := line_num stmt
+4 stmt := asgmnt
+5 stmt := if
+6 stmt := print
+7 stmt := goto
+8 stmt := stop
+9 asgmnt := id = exp
+10 exp := term exp'
+11 exp' := + term
+12 exp' := - term
+13 exp' := empty
+14 term := id
+15 term := const
+16 if := IF cond line_num
+17 cond := term cond'
+18 cond' := < term
+19 cond' := = term
+20 print := PRINT id
+21 goto := GOTO line_num
+22 stop := STOP
