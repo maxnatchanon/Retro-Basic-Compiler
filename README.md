@@ -48,5 +48,5 @@ stop := STOP
  2. Run *main_compiler.py*
  3. The output will be in *output.txt* 
  
- *Full project description is available in repo (Projecct_Description.html)  
- Project report is also available (Project_Report.pdf)*
+ *Full project description [here](https://www.cp.eng.chula.ac.th/~piak/teaching/prolang/2018/retro-basic.htm)*
+ *Project report is available in repo (Project_Report.pdf)*
