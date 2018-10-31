@@ -6,17 +6,19 @@ Write a compiler to translate the source of Retro Basic to the B-code.
 The compiler must be able to check the grammar and report the error if input file is incorrect.
 
 **Grammar :**   
-  pgm := line pgm | EOF  
-  line := line_num stmt  
-  stmt := asgmnt | if | print | goto | stop  
-  asgmnt := id = exp  
-  exp := term + term | term - term  | term
-  term := id | const  
-  if := IF cond line_num  
-  cond := term < term | term = term  
-  print := PRINT id  
-  goto := GOTO line_num  
-  stop := STOP  
+```
+pgm := line pgm | EOF  
+line := line_num stmt  
+stmt := asgmnt | if | print | goto | stop  
+asgmnt := id = exp  
+exp := term + term | term - term  | term
+term := id | const  
+if := IF cond line_num  
+cond := term < term | term = term  
+print := PRINT id  
+goto := GOTO line_num  
+stop := STOP  
+```
   
 **Example :**  
 ```
