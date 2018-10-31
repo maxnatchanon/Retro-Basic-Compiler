@@ -3,7 +3,7 @@ This project is a part of 2110316 Programming Languages Principles at Chulalongk
 
 **Task :**  
 Write a compiler to translate the source of Retro Basic to the B-code.
-The compiler must be able to check the grammar and report the error if input file is incorrect.
+The compiler must be able to check the grammar and report the error if the input file is incorrect.
 
 **Grammar :**   
 ```
@@ -48,5 +48,5 @@ stop := STOP
  2. Run *main_compiler.py*
  3. The output will be in *output.txt* 
  
- *Full project description [here](https://www.cp.eng.chula.ac.th/~piak/teaching/prolang/2018/retro-basic.htm)*
+ *Full project description [here](https://www.cp.eng.chula.ac.th/~piak/teaching/prolang/2018/retro-basic.htm)*  
  *Project report is available in repo (Project_Report.pdf)*
