@@ -41,5 +41,10 @@ The compiler must be able to check the grammar and report the error if input fil
 10 80 16 0 
 ```
  
- **Full project description is available in repo (Projecct_Description.html)**  
- **Project report is also available (Project_Report.pdf)**
+ **How to run :**  
+ 1. Put your input code in *input.txt*
+ 2. Run *main_compiler.py*
+ 3. The output will be in *output.txt* 
+ 
+ *Full project description is available in repo (Projecct_Description.html)  
+ Project report is also available (Project_Report.pdf)*
